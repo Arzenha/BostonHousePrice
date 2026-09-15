@@ -51,7 +51,7 @@ As principais visualizações do projeto podem ser adicionadas na pasta `images/
 
 ### Distribuição dos dados
 
-![Distribuição dos dados](images/distribuicao-dados.png)
+![Distribuição dos dados](imagens/Distribuição--dos--Dados--Pdronizaddos.png)
 
 ### Matriz de correlação
 
