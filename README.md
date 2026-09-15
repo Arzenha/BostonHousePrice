@@ -47,27 +47,37 @@ Analisar os fatores relacionados ao valor médio das casas em Boston e desenvolv
 
 ## Imagens
 
-As principais visualizações do projeto podem ser adicionadas na pasta `images/`.
+## Principais visualizações
 
-### Distribuição dos dados
+### Distribuição dos dados padronizados
 
-![Distribuição dos dados](imagens/Distribuição--dos--Dados--Pdronizaddos.png)
+![Distribuição dos dados padronizados](Imagens/Distribui%C3%A7%C3%A3o%20dos%20Dados%20Pdronizados.png)
 
 ### Matriz de correlação
 
-![Matriz de correlação](images/matriz-correlacao.png)
+![Matriz de correlação](Imagens/Matriz%20de%20Correla%C3%A7%C3%A3o.png)
 
-### Comparação entre valores reais e previstos
+### Valores reais e previstos
 
-![Valores reais e previstos](images/valores-reais-previstos.png)
+![Valores reais e previstos](Imagens/Valores%20reais%20e%20previstos.png)
 
 ### Importância das variáveis
 
-![Importância das variáveis](images/importancia-variaveis.png)
+![Importância das variáveis](Imagens/Importancia%20das%20vari%C3%A1veis.png)
 
-### Análise dos clusters
+## Perfil dos Clusters
 
-![Clusters](images/clusters.png)
+A análise com K-Means dividiu os imóveis em quatro grupos com características semelhantes:
+
+|   cluster |   CRIM |   RM |   LSTAT |   PTRATIO |   MEDV |
+|----------:|-------:|-----:|--------:|----------:|-------:|
+|         0 |   0.28 | 6.34 |   10.68 |     18.33 |  24.04 |
+|         1 |  12.76 | 6.02 |   18.6  |     20.2  |  16.4  |
+|         2 |   0.07 | 6.75 |    6.1  |     16.88 |  29.35 |
+|         3 |   1.21 | 5.99 |   16.37 |     17.41 |  20.53 |
+
+> Os valores devem ser preenchidos com o resultado exibido por  
+> `df_clusterizado.groupby("cluster").mean(numeric_only=True)`.
 
 ## Como executar
 
